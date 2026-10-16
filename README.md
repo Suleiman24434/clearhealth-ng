@@ -35,4 +35,4 @@ clearhealth-ng/
 └── README.md
 
 ## Author
--Suleiman Nurain Oluwarotimi
+-**Suleiman Nurain Oluwarotimi**
