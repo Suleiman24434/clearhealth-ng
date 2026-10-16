@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClearHealth NG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><span>+</span> ClearHealth NG</div>
+  <nav>
+    <a href="#" class="active">Home</a>
+    <a href="#">Sickness</a>
+    <a href="#">Rights</a>
+    <a href="#">First Aid</a>
+    <a href="#">Help</a>
+  </nav>
+  <button class="lang-btn" id="langToggle">EN | Pidgin</button>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1 id="heroTitle">Your Health In Language You Understand</h1>
+    <p id="heroDesc">Clear, simple health information explained in English & Pidgin. Trusted, easy to understand, for everyone in Nigeria.</p>
+    <div class="search">
+      <input type="search" id="searchInput" placeholder="Search for symptoms, rights, first aid...">
+      <button id="searchBtn">Search</button>
+    </div>
+  </div>
+</section>
+
+<section class="browse">
+  <h2>Browse by Category</h2>
+  <div class="cards" id="categoryCards">
+    <div class="card" data-name="common sickness malaria typhoid cold">
+      <h3>Common Sickness</h3>
+      <p>Cold, malaria, typhoid, and more — explained simply in English & Pidgin</p>
+      <a href="#">Learn more →</a>
+    </div>
+    <div class="card" data-name="hospital rights patient">
+      <h3>Your Hospital Rights</h3>
+      <p>Know your rights as a patient. What you deserve in hospitals and clinics.</p>
+      <a href="#">Learn more →</a>
+    </div>
+    <div class="card" data-name="first aid emergency">
+      <h3>First Aid</h3>
+      <p>Quick first aid steps for emergencies at home, work, or road.</p>
+      <a href="#">Learn more →</a>
+    </div>
+  </div>
+</section>
+
+<section class="tips">
+  <h2 id="tipsTitle">Featured Health Tips</h2>
+  <p class="sub" id="tipsSub">Trusted tips to stay healthy and safe</p>
+  <div class="tip-cards" id="tipsCards">
+    <div class="tip" data-name="hydrated water hot weather">
+      <h3>Stay Hydrated in Hot Weather</h3>
+      <p>Why drinking water is important and how much you need daily in Nigeria's heat.</p>
+      <span><b>Wellness</b> • 3 min read</span>
+    </div>
+    <div class="tip" data-name="malaria symptoms">
+      <h3>Understanding Malaria Symptoms Early</h3>
+      <p>Learn the early signs and what to do if you or family member feels sick.</p>
+      <span><b>Common Sickness</b> • 4 min read</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 ClearHealth NG • About • Privacy • Contact • Help</p>
+  <p id="message"></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
